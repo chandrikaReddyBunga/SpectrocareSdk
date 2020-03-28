@@ -40,7 +40,8 @@ public class SpectroDeviceDataController {
     //public Context context;
     public SpectorDeviceDataStruct spectroDeviceObject;
     public ArrayList<Steps> motorSteps;
-    String FETCH_FILES_DATA_STRING = "http://54.210.61.0:8096/spectrocare/sdkjsonfiles/fileread";
+  //  String FETCH_FILES_DATA_STRING = "http://54.210.61.0:8096/spectrocare/sdkjsonfiles/fileread";
+    String FETCH_FILES_DATA_STRING = "http://52.1.227.73:8096/spectrocare/sdkjsonfiles/fileread";
 
 
     public static SpectroDeviceDataController getInstance() {
