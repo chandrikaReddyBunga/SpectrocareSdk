@@ -27,7 +27,8 @@ import java.util.Locale;
 
 public class SCFileHelper {
     private static SCFileHelper ourInstance;
-    String FETCH_FILES_URL_STRING ="http://54.210.61.0:8096/spectrocare/sdkjsonfilesforengg/getallstripes";
+        String FETCH_FILES_URL_STRING ="http://52.1.227.73:8096/spectrocare/sdkjsonfilesforengg/getallstripes";
+    // String FETCH_FILES_URL_STRING ="http://54.210.61.0:8096/spectrocare/sdkjsonfilesforengg/getallstripes";
     // String FETCH_FILES_URL_STRING = "http://54.210.61.0:8096/spectrocare/sdkjsonfiles/getallstripes";
     private JSONObject filesObj;
     private DownloadJsonFiles downloadJsonFiles;
