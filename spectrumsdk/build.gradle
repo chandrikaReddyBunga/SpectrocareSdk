@@ -3,18 +3,13 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='edmt.dev'
 android {
     compileSdkVersion 28
-
-
     defaultConfig {
         minSdkVersion 20
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
-
     buildTypes {
         release {
             minifyEnabled false
